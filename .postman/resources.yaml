@@ -1,9 +1,17 @@
-workspace:
-  id: 6bee9bd2-16cf-4caa-a7bc-da81bba9a1a8
-
+cloudResources:
+  collections:
+    ../postman/collections/Deskly API: 47572017-2a1b7f1a-405c-4eed-a055-21503142690d
+  globals:
+    ../postman/globals/workspace.globals.yaml: 445177fb-c543-4f35-8025-914cf2fed5b7
+  mocks:
+    ../postman/mocks/deskly-mock/config.yaml: 01a1e49a-5d59-74bd-b60c-df0a8aced8a9
+  specs:
+    ../postman/specs/Deskly API/Deskly API.yaml: 6bef4c61-4a9f-4378-93c0-99769587a399
 localResources:
   specs:
     - ../postman/specs/Deskly API/Deskly API.yaml
 resourceNameMappings:
   specs:
     - ../postman/specs/Deskly API/Deskly API.yaml: Deskly API
+workspace:
+  id: 6bee9bd2-16cf-4caa-a7bc-da81bba9a1a8
