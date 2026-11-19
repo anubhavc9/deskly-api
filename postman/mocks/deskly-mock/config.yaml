@@ -1,0 +1,15 @@
+id: 01a1e49a-5d59-74bd-b60c-df0a8aced8a9
+version: 1
+name: Deskly Mock
+slug: new-mock-fc357
+enableSession: true
+protocol: http
+port: 4500
+autoRestartOnChange: true
+logging:
+  level: verbose
+  showBody: true
+scenarios:
+  - name: default
+    path: ./default.js
+    default: true
